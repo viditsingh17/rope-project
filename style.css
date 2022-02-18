@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+body{
+    user-select: none;
+    overflow: hidden;
+    background: rgb(10, 10, 20);
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 5em;
+    font-weight: 100;
+    line-height: 1em;
+    position: relative;
+    text-align: center;
+}
+h5{
+    color: whitesmoke;
+    
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+.center{
+    display: block;
+    position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#run{
+    position: absolute;
+    left: 20px;
+}
+#stop{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+#clear{
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    
+}
+#ins{
+    position: absolute;
+    font-size: 14px;
+    text-align: left;
+    width: 20%;
+    right: 20px;
+    color: whitesmoke;
+}
+.desc{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    border: whitesmoke 2px solid;
+    text-align: center;
+    display: block;
+    margin: 40px auto 0;
+    background: none;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 3px 20px;
+    color: whitesmoke;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.p5Canvas{
+    display: block;
+    position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
